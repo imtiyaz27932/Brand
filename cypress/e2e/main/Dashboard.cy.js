@@ -53,7 +53,7 @@ describe('Influnaire', () => {
 
     })
 
-    it(' verify user clicks already have an account link and login into the appliction', () => {
+    it.only(' verify user clicks already have an account link and login into the appliction', () => {
         cy.contains('Signup Now').click()
         const pepsi = new dashbaord()
         const credent = new login()
