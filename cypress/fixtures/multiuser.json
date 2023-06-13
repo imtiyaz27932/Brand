@@ -1,0 +1,121 @@
+[
+    {
+    "email":"user1@gmail.com", 
+    "Firstname": "Aqib",
+    "Lastname":"Bashir",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user2@gmail.com", 
+    "Firstname": "Bari",
+    "Lastname":"abdul",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user3@gmail.com", 
+    "Firstname": "Numan",
+    "Lastname":"Noor",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user4@gmail.com", 
+    "Firstname": "mudasir",
+    "Lastname":"Bhat",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user5@gmail.com", 
+    "Firstname": "shahid",
+    "Lastname":"malik",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user6@gmail.com", 
+    "Firstname": "kamran",
+    "Lastname":"bhat",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user7@gmail.com", 
+    "Firstname": "salfi",
+    "Lastname":"farooq",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user8@gmail.com", 
+    "Firstname": "adnan",
+    "Lastname":"hassan",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user9@gmail.com", 
+    "Firstname": "Naveed",
+    "Lastname":"mohd",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    },
+
+    {
+    "email":"user10@gmail.com", 
+    "Firstname": "bisma",
+    "Lastname":"jan",
+    "Company Name": "Graphicweave",
+    "Title": "Manager",
+    "Phonenumber":"0123456789",
+    "password":"Test1@gmail.com",
+    "confirmpassword": "Test1@gmail.com"
+    
+    }
+]

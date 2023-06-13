@@ -1,0 +1,26 @@
+{
+  "name": "influnaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npx test":"npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.11.0"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.4.0",
+    "cypress-multi-reporters": "^1.6.3"
+  },
+  "config": {
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporter-config.json"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "email":"login@yopmail.com",
+     "firstname":"Imtiyaz",
+     "Lastname":"Ahmad",
+     "companyname":"Graphicweave",
+     "Title":"CEO",
+     "PhoneNumber":"7006653782", 
+     "password":"Test@123",
+     "confirmpassword":"Test@123",
+     "newpassword":"Test@1234",
+     "confirmnewpassword":"Test@1234",
+     
+     "Firstnameforadduser":"imtiyaz",
+    "Lastnameforadduser":"Ahmad",
+    "Phone":"1234346789",
+    "pwd":"Testwe@123",
+    "facebookemail":"imu27932@gmail.com",
+    "facebookpsd":"Test@123"
+
+}
