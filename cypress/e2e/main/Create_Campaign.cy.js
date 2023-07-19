@@ -1,6 +1,6 @@
 import login from "../POM/login.cy";
 import campaign from "../POM/CreateCampaign.cy";
-//import dashbaord from "../POM/Dashbrd.cy";
+
 
 
 let repodata
@@ -21,18 +21,19 @@ describe('Influnaire', () => {
         alpha.stepcheck();
         cy.get(".ant-progress-inner").should("exist").then(($progressBar) => {
             cy.wrap($progressBar)
-              .find(".ant-progress-bg")
-              .should("have.css", "width", "56.4375px");
-          });
+                .find(".ant-progress-bg")
+                .should("have.css", "width", "56.4375px");
+        });
     })
 
 
 
-    it('Verify that user is able to create a Campaign', () => {
+    it.only('Verify that user is able to create a Campaign', () => {
         const user = new login()
         const alpha = new campaign()
         user.logincredentials(repodata.email, repodata.password)
         alpha.createcampaign(repodata.campaignname, repodata.campaignbudget)
+       
 
     })
 

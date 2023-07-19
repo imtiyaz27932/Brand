@@ -20,31 +20,31 @@ class campaign {
 
 
 
-    
+
     stepcheck() {
         this.elements.campaigndropdown().click()
         this.elements.createcampaign().click()
-        
-              cy.get('.ant-steps-item').should('have.length', 6);
-          
-              // Validate the first step is active and contains the title "Campaign Basic Details"
-              cy.get('.ant-steps-item-active').should('contain.text', 'Campaign Basic Details');
-          
-              // Validate the second step is waiting and contains the title "Campaign Brief"
-              cy.get('.ant-steps-item-wait').eq(0).should('contain.text', 'Campaign Brief');
-          
-              // Validate the third step is waiting and contains the title "Campaign Resources"
-              cy.get('.ant-steps-item-wait').eq(1).should('contain.text', 'Campaign Resources');
-          
-              // Validate the fourth step is waiting and contains the title "Content Requirements"
-              cy.get('.ant-steps-item-wait').eq(2).should('contain.text', 'Content Requirements');
-          
-              // Validate the fifth step is waiting and contains the title "Audience"
-              cy.get('.ant-steps-item-wait').eq(3).should('contain.text', 'Audience');
-          
-              // Validate the sixth step is waiting and contains the title "Finish"
-              cy.get('.ant-steps-item-wait').eq(4).should('contain.text', 'Finish');
-            
+
+        cy.get('.ant-steps-item').should('have.length', 6);
+
+        // Validate the first step is active and contains the title "Campaign Basic Details"
+        cy.get('.ant-steps-item-active').should('contain.text', 'Campaign Basic Details');
+
+        // Validate the second step is waiting and contains the title "Campaign Brief"
+        cy.get('.ant-steps-item-wait').eq(0).should('contain.text', 'Campaign Brief');
+
+        // Validate the third step is waiting and contains the title "Campaign Resources"
+        cy.get('.ant-steps-item-wait').eq(1).should('contain.text', 'Campaign Resources');
+
+        // Validate the fourth step is waiting and contains the title "Content Requirements"
+        cy.get('.ant-steps-item-wait').eq(2).should('contain.text', 'Content Requirements');
+
+        // Validate the fifth step is waiting and contains the title "Audience"
+        cy.get('.ant-steps-item-wait').eq(3).should('contain.text', 'Audience');
+
+        // Validate the sixth step is waiting and contains the title "Finish"
+        cy.get('.ant-steps-item-wait').eq(4).should('contain.text', 'Finish');
+
     }
 
 
@@ -78,12 +78,17 @@ class campaign {
         this.elements.createcampaign().click()
         this.elements.campaignname().type(name)
         this.elements.campaignbudget().clear().type(budget)
-        // this.elements.selectbrand().click()
+        this.elements.selectbrand().click()
         cy.wait(2000)
-        // cy.get('.ant-select-item ant-select-item-option').select('Puma')
-    }    
-
+       // cy.get('.ant-select-item ant-select-item-option').select('Option1')
+        cy.get("#range-picker").click()
+            .type("2023-07-10 {enter}");
+        cy.wait(3000)
+        cy.get('.ant-picker-input-active > input').click()
+            .type("2023-07-20 {enter}");
     }
+
+}
 
 
 
