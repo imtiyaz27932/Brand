@@ -1,5 +1,5 @@
 {
-    "email":"login@yopmail.com",
+    "email":"kashter@yopmail.com",
      "firstname":"Imtiyaz",
      "Lastname":"Ahmad",
      "companyname":"Graphicweave",
@@ -15,6 +15,10 @@
     "Phone":"1234346789",
     "pwd":"Testwe@123",
     "facebookemail":"imu27932@gmail.com",
-    "facebookpsd":"Test@123"
+    "facebookpsd":"Test@123",
+
+
+    "campaignname": "Save the Ocean",
+    "campaignbudget": "1999"
 
 }

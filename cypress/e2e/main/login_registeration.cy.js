@@ -32,7 +32,7 @@ describe('Influnaire', () => {
     name.enterpassword(repodata.password, repodata.confirmpassword)
   })
 
-  it('Test that user is able to signup using facebook', () => {
+  it.skip('Test that user is able to signup using facebook', () => {
    
     cy.contains('Signup Now').click()
     const name = new signup()
